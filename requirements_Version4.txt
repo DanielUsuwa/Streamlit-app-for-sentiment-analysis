@@ -1,0 +1,13 @@
+streamlit==1.52.1
+pandas==2.3.3
+altair==6.0.0
+# Optional / recommended for higher-quality sentiment scoring:
+# Uncomment to request installation on deploy (may require compilation on some Python versions)
+nltk
+vaderSentiment
+
+# For WordCloud support (uncomment to request installation on deploy).
+# Note: wordcloud may fail to install on some hosts / Python versions if no wheel is available.
+# If install fails on the host, keep these commented and run locally instead.
+wordcloud
+pillow
