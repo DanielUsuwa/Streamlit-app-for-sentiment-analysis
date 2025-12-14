@@ -1,9 +1,0 @@
-streamlit==1.52.1
-pandas==2.3.3
-altair==6.0.0
-# Optional high-quality analyzers - uncomment to request them on deploy:
-nltk
-vaderSentiment
-# Optional visualization (may not install on all hosts):
-# wordcloud
-# pillow
