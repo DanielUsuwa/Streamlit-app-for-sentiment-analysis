@@ -1,0 +1,23 @@
+# Sample data & quick test instructions
+
+This file contains a sample CSV (header + rows) you can copy into a file named `sample_reviews.csv`
+or paste contents into a spreadsheet and export as CSV for testing the Streamlit app.
+
+Sample CSV content:
+review_content
+"Good product, arrived on time, works as described."
+"Terrible packaging. Cable stopped working after two days."
+"Average experience — nothing special, not worth extra cost."
+"Excellent! Very fast delivery and works perfectly."
+"Not as described. Missing parts and poor quality."
+
+How to test quickly:
+1. Save the above CSV text to `sample_reviews.csv`.
+2. Install dependencies: see README.md.
+3. Run: `streamlit run app.py`
+4. Click "Use sample data" or upload `sample_reviews.csv`.
+5. Click "Analyze".
+
+Notes:
+- The first run may download NLTK resources; the app shows a spinner for that.
+- If you see errors about NLTK downloads on servers with no internet access, download the resources beforehand or run locally.
