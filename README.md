@@ -65,7 +65,7 @@ The interface is built with Streamlit and includes dataset previews, sampling co
 - Sentiment Analysis (NLTK VADER / vaderSentiment with fallback logic)
 - Text Visualisation (WordCloud, Altair-based fallback cloud)
 - Data Visualisation (Altair, Matplotlib)
-- Web App Framework (Streamlit)
+- Web App (Streamlit)
 
 ---
 
