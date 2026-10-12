@@ -79,6 +79,17 @@ The interface is built with Streamlit and includes dataset previews, sampling co
 ---
 
 
+## Run locally
+```bash
+git clone https://github.com/DanielUsuwa/Streamlit-app-for-sentiment-analysis.git
+cd Streamlit-app-for-sentiment-analysis
+pip install -r requirements_Version4.txt
+streamlit run app_Version9.py
+```
+Then upload any CSV with a text column, or save the sample rows in `SAMPLE_TEXT_Version2.txt` as `sample_reviews.csv` to test it. You can analyse up to three text columns at once.
+
+---
+
 ## Author
 **Daniel Usuwa**  
 Business & Data Analyst  
